@@ -30,6 +30,18 @@
   </div>
 </template>
 
+<script>
+
+import Firebase from 'firebase';
+import confing from './Config';
+let app = Firebase.initializeApp(Config);
+let db = app.database();
+
+export default {
+   
+}
+</script>>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -73,3 +85,4 @@
   border-radius: 5px;
 }
 </style>
+
